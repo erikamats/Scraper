@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Scraper Homework</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One|Peddana" rel="stylesheet">
+    <!-- Materialize Compiled and minified CSS-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+<style>
+
+/* font-family: 'Josefin Slab', serif; */
+/* font-family: 'Amatic SC', cursive; */
+
+/* font-family: 'Peddana', serif; */
+/* font-family: 'Pathway Gothic One', sans-serif; */
+    
+
+    .brand-logo{
+        font-family: 'Pathway Gothic One', sans-serif;
+        margin-left: 20px;
+        font-size: 50px !important;
+    }
+
+    a{
+        font-family: 'Pathway Gothic One', sans-serif;
+        font-size: 20px !important;
+    }
+
+</style>
+
+</head>
+
+<body>
+
+
+    <div id="wrapper">
+
+        <!-- NAV BAR -->
+        <nav>
+            <div class="nav-wrapper yellow darken-2">
+                <a href="#" class="brand-logo">Logo</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="/articles">Saved Articles</a></li>
+                    <li>
+                        <a class="waves-effect waves-light btn-large red" href="/scrape">Scrape new Articles</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <h1>Note Scraper</h1>
+        <h2>
+            <i>If you can do this...the homework should be no problem.</i>
+        </h2>
+        <div id="articles"></div>
+        <div id="notes"></div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+</body>
+
+</html>
